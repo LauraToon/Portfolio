@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Design and Art Portfolio</title>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Optional: Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header / Navigation -->
+  <header>
+    <nav>
+      <h1>Laura Setzer</h1>
+      <ul>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero">
+      <h2>Designer & Artist</h2>
+      <p>I create visual identities, digital experiences, and art projects.</p>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work">
+      <h3>Selected Projects</h3>
+
+      <div class="projects">
+        <article class="project">
+          <img src="images/project-1.jpg" alt="Project title">
+          <h4>Project Title</h4>
+          <p>Short description of the project.</p>
+        </article>
+
+        <!-- Repeat project blocks -->
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h3>About Me</h3>
+      <p>
+        Short bio. Your background, focus, and interests.
+      </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h3>Contact</h3>
+      <p>
+        Email: <a href="mailto:laurasetzerprivat@gmail.com">laurasetzerprivat@gmail.com</a>
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Laura Setzer</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
