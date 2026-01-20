@@ -55,6 +55,7 @@ header nav {
 }
 
 header h1 {
+  text-align: center; 
   margin: 0;
   font-size: 18px;
   letter-spacing: 0.2px;
