@@ -49,9 +49,9 @@ footer {
 --------------------------------*/
 header nav {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 12px;
+  justify-content: space-between;
+  gap: 16px;
 }
 
 header h1 {
