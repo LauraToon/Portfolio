@@ -206,3 +206,28 @@ footer p {
     grid-column: auto;
   }
 }
+
+/* ------------------------------
+   scroll content area
+--------------------------------*/
+
+.scroll-area {
+  display: flex;
+  overflow-x: auto;
+  gap: 12px;
+  padding: 10px;
+}
+
+.card {
+  min-width: 200px;
+  height: 140px;
+  border-radius: 10px;
+  overflow: hidden; /* important for images */
+  background: #eee;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* fills the card nicely */
+}
